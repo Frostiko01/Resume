@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Commissioner", sans-serif;
+}
+body {
+    background-image: url(./fon.jpg);
+    background-size: cover;
+    
+}
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Commissioner", sans-serif;
+}
+.ilbi {
+  background: linear-gradient(45deg, #f0d88a, #c2af07);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  display: inline-block;
+  padding-top: 20px
+}
+h2 {
+    font-size: 28px;
+    font-family: "Commissioner", sans-serif;
+}
+.line {
+    width: 36%;
+    margin-left: 549px;
+    border: none;
+    border-top: 3px solid #c2af07;
+}
+h2 {
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: 400px; 
+    margin-left: 125px;
+}
+
+.tex {
+    width: 400px;
+    line-height: 200%;
+    margin-top: 90px;
+    color: black;
+    font-family: "Commissioner", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 130px;
+    border: 2px solid rgb(9, 50, 133);
+    color: gold;
+    border-radius: 30px;
+}
+
+.centr {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 130px;   
+}
+.lin5 {
+    border: none;
+    border-top: 3px solid #c2af07;
+}
+footer p{
+    margin-left: 130px;
+}
+.bot {
+    margin-bottom: 10px;
+}
+.bot3 {
+    margin-bottom: 20px;
+}
