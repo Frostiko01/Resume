@@ -1,39 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Сертификат подлинности ILBI APPAREL</title>
     <link rel="stylesheet" href="style.css">
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bungee+Spice&family=Commissioner:wght@100..900&family=Dancing+Script:wght@400..700&family=Faster+One&family=Forum&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Script&family=Leckerli+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Montserrat:wght@400;500;600;700;800&family=Commissioner:wght@100..900&display=swap');
+    </style>
 </head>
 <body>
-    <header>
-        <h1>СЕРТИФИКАТ ПОДЛИННОСТИ  <br>
-            <hr class="line">   <strong class="ilbi">ILBI  APPAREL</strong> </h1>
-            <h2>Этот ярлык подтверждает, что перед вами оригинальная вещь от бренда <strong class="ilbi"> ILBI </strong>. </h2>
-    </header>
-       
-    <main>
-        <div class="centr">
-         <div class="foto">
-            <img src="./fotos.png" alt="">
-         </div>
-          <div class="text">
-            <p class="tex">Мы создали эту толстовку из премиального флиса, чтобы обеспечить вам бескомпромиссный комфорт, тепло и свободу движений в любых условиях. Каждое изделие проходит строгий контроль качества: от выбора нитей до финального шва. Носите с гордостью.</p>
+    <div class="certificate-container">
+        <header class="certificate-header">
+            <div class="header-decoration">
+                <span class="decoration-line left"></span>
+                <span class="decoration-symbol">✓</span>
+                <span class="decoration-line right"></span>
             </div>
-           </div>
-           
-     </main>
-     <footer>
-            <p class="bot">Premium Comfort. Made in KG. <br>        
-                Размер:_____ <br>
-                 Артикул:Comfort.</p>
-            <hr class="lin5">
-            <p class="bot2">Для заказа, и полной информации обращаться по этому номеру.</p>
-            <p class="bot3">+996508-07-77-01,  +996704-00-45-02</p>
-     </footer>
+            <h1 class="certificate-title">СЕРТИФИКАТ<br>ПОДЛИННОСТИ</h1>
+            <div class="brand-section">
+                <p class="brand-label">Марка</p>
+                <h2 class="brand-name">ILBI APPAREL</h2>
+            </div>
+            <p class="certificate-description">Этот сертификат подтверждает, что перед вами оригинальная вещь от премиум-бренда <span class="highlight">ILBI APPAREL</span></p>
+        </header>
+        
+        <main class="certificate-main">
+            <section class="product-section">
+                <div class="product-image-wrapper">
+                    <div class="image-frame">
+                        <img src="./fotos.png" alt="ILBI Apparel товар" class="product-image">
+                    </div>
+                </div>
+                
+                <div class="product-details">
+                    <div class="details-card">
+                        <h3 class="details-title">Комфорт Премиум Качества</h3>
+                        <p class="details-text">Мы создали эту толстовку из премиального флиса, чтобы обеспечить вам бескомпромиссный комфорт, тепло и свободу движений в любых условиях. Каждое изделие проходит строгий контроль качества: от выбора материалов до финального шва.</p>
+                        <ul class="quality-marks">
+                            <li><span class="mark-icon">✓</span> Премиальные материалы</li>
+                            <li><span class="mark-icon">✓</span> Строгий контроль качества</li>
+                            <li><span class="mark-icon">✓</span> Экологичное производство</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="certificate-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="footer-title">Информация о товаре</p>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Происхождение:</span>
+                            <span class="info-value">Made in KG</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Размер:</span>
+                            <span class="info-value">_________</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Артикул:</span>
+                            <span class="info-value">Comfort</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-contact">
+                    <p class="contact-subtitle">Свяжитесь с нами для полной информации и заказов</p>
+                    <div class="phone-numbers">
+                        <a href="tel:+996508077701" class="phone-link">+996 (508) 07-77-01</a>
+                        <a href="tel:+996704004502" class="phone-link">+996 (704) 00-45-02</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-decoration">
+                <span class="deco-line"></span>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
